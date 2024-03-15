@@ -1,0 +1,33 @@
+/* Selector Universal*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Selector de Etiqueta*/
+body {
+    background-image: linear-gradient(270deg, #ff83ba 0, #ff7ac2 10%, #ff72c8 20%, #ff6ac9 30%, #ff62c7 40%, #ec5ac0 50%, #cb52b7 60%, #ac4cae 70%, #9048a6 80%, #77449f 90%, #5f4299 100%);
+    padding: 20px;
+}
+
+label {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+h1 {
+    color: #571089;
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+}
+
+/* Selector de Clase*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

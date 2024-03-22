@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* Selector Universal*/
 
 * {
@@ -10,15 +12,13 @@
 body {
     background-image: linear-gradient(270deg, #ff83ba 0, #ff7ac2 10%, #ff72c8 20%, #ff6ac9 30%, #ff62c7 40%, #ec5ac0 50%, #cb52b7 60%, #ac4cae 70%, #9048a6 80%, #77449f 90%, #5f4299 100%);
     padding: 20px;
+    display: flex;
+    height: 100vh;
 }
 
-label {
-    color: #fff;
-    font-size: 25px;
-    text-align: center;
-}
+
 h1 {
-    color: #571089;
+    color: #c2297d;
     text-align: center;
     font-size: 50px;
     padding: 30px;
@@ -27,7 +27,77 @@ h1 {
 /* Selector de Clase*/
 
 .container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.title h1 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+    padding: 7px;
+}
+
+.title p{
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.row_form {
+    margin: 10px 0;
+    width: 100%;
     display: flex;
-    justify-content: center;
+}
+
+
+.row_form label {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    width: 40%;
+    display: flex;
     align-items: center;
+}
+
+.row_form input {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #9c9c9c;
+    height: 30px;
+    padding: 5px;
+    width: 70%;
+    text-align: center;
+}
+
+.button_form {
+    margin-top: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid #9c9c9c;
+    width: 100%;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* pseudoclase */
+.button_form:hover{
+    box-shadow: 0px 0px 10px 1px #9c105d;
+    transition: all ease-in-out .2s;
+}
+.form{
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
 }
